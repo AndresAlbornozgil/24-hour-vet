@@ -64,3 +64,13 @@ footer {
     background-color: #40513B;
     border-color: #40513B;
 }
+
+@media (max-width: 992px) {
+    #hero {
+        height: 40vh !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0 !important;
+    }
+}
