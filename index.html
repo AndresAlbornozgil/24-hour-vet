@@ -13,8 +13,8 @@
     <!-- header section -->
     <header id="header" class="navbar bg-body-tertiary fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">24hr-Vet</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <a id="title" class="navbar-brand" href="#main">24hr-Vet</a>
+          <button id="nav-button" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -25,7 +25,8 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">About</a>
+                    <a class="nav-link active" aria-current="page" href="#main">Find 24hr Clinic</a>
+                    <a class="nav-link active" aria-current="page" href="#">About us</a>
                 </li>
               </ul>
             </div>
@@ -34,7 +35,9 @@
     </header>
 
     <!-- hero section -->
-    <div id="hero" class="px-4 py-5 my-5 text-center">
+    <div id="hero"></div>
+
+    <div id="main" class="px-4 py-5 my-5 text-center">
         <h1 class="display-5 fw-bold text-body-emphasis">Find Near & Open Veterinary Clinics</h1>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">From cats & dogs to exotic pets. Whatever your emergency is, we will help you find a veterinary clinic near you, that is open and ready to save the life of your friend.</p>
@@ -45,11 +48,11 @@
     </div>
 
     <!-- footer -->
-    <footer class="py-5 my-1">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <p>When it comes to saving your pet, time is important.</>
+    <footer class="py-5">
+        <ul class="nav justify-content-center">
+          <h5>"When it comes to saving your pet, time is important."</h5>
         </ul>
-        <p class="text-center text-body-secondary">© 2024 <span>24hr-Vet, Inc</span></p>
+        <p class="text-center text-body-secondary mt-3">© 2024 <span>24hr-Vet, Inc</span></p>
     </footer>
 
 
