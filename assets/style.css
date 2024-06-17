@@ -30,6 +30,18 @@ footer {
     background-color: whitesmoke;
 }
 
+#sidebar {
+    background-color: #609966 !important;
+}
+
+#sidebar a {
+    color: whitesmoke !important;
+}
+
+#sidebar-title {
+    background-color: whitesmoke !important;
+}
+
 #title {
     font-size: 1.5em;
 }
