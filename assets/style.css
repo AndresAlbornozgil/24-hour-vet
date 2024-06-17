@@ -1,3 +1,4 @@
+/* applies style to everything */
 * {
     margin: 0;
     padding: 0;
@@ -65,6 +66,7 @@ footer {
     border-color: #40513B;
 }
 
+/* helps make the website responsive to all screens */
 @media (max-width: 992px) {
     #hero {
         height: 40vh !important;
